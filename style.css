@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1070px;
+}
+@media only screen and (max-width: 1070px){
+    nav{
+        width:1070px ;
+    }
+    
+}
+.card-img{
+    border: none;
+}
+@media only screen and (max-width:1100px){
+    .card-img{
+        width: 1100px;
+       
+    }    
+}
+.piv2{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+}
+.piv3{
+    background-color: rgb(47,35,57);
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+.piv4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.piv5{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.piv6 img{
+    width: 1400px;
+}
+@media only screen and (max-width:1100px){
+    .piv6 img{
+        width: 1070px;
+        
+    }    
+}
+.piv7{
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+.big{
+    display: grid; 
+    grid-template-columns: auto auto;
+    padding-top: 2%;
+   
+}
+.piv8{
+    background-color: rgb(238,93,48);
+    color: white;
+    padding-left: 20%;
+    padding-top: 10%;
+    width: 600px;
+}
+.piv9{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.piv9 i{
+    font-size: 2rem;
+    border-radius: 100%;
+    background-color: rgb(238,93,48);
+    width: 80px;
+    height: 80px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.piv10{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1100px;
+}
+@media only screen and (max-width:1100px){
+    .piv10{
+        width: 1070px;
+        
+    }    
+}
